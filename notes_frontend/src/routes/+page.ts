@@ -1,3 +1,5 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
+/**
+ PUBLIC_INTERFACE
+ Keep the root page prerendered since content is client-side with local state.
+*/
 export const prerender = true;

@@ -1,17 +1,16 @@
 <script lang="ts">
-    import '../app.css';
-    let { children } = $props();
+  import "../app.css";
+  import Header from "$lib/components/Header.svelte";
+  import Sidebar from "$lib/components/Sidebar.svelte";
+  import Editor from "$lib/components/Editor.svelte";
 </script>
 
-<main>
-    {@render children()}
-</main>
-
-<style>
-    main {
-        display: flex;
-        min-height: 100vh;
-        align-items: center;
-        justify-content: center;
-    }
-</style>
+<div class="container-app">
+  <Header />
+  <div class="main-area">
+    <Sidebar />
+    <main>
+      <Editor />
+    </main>
+  </div>
+</div>

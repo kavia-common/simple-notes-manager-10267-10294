@@ -1,19 +1,6 @@
 <svelte:head>
-    <title>notes_frontend</title>
+  <title>Simple Notes</title>
+  <meta name="description" content="A minimalistic notes app built with Svelte. Create, edit, delete, view, and search your notes.">
 </svelte:head>
-
-<div class="container">
-    <p>notes_frontend is being generated</p>
-</div>
-
-<style>
-    .container {
-        text-align: center;
-    }
-
-    p {
-        margin: 0;
-        font-size: 2rem;
-        color: var(--color-text-primary);
-    }
-</style>
+<!-- Content handled by +layout.svelte -->
+<div></div>
